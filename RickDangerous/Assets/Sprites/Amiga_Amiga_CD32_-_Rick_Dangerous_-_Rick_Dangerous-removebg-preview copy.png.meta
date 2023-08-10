@@ -1,0 +1,1367 @@
+fileFormatVersion: 2
+guid: ef8e360cc04488e44be0b566c2301088
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 202
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972b5ba0a53aa0f40839c3ebf0aa9de7
+      internalID: -1970196264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 203
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956462203a860394880f0dc33bdb6fb4
+      internalID: -2043048931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 115
+        width: 22
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd2882d822f36e46a1b94872f2b344b
+      internalID: 964251468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 202
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed686bec0541854408ddc4aa5316d017
+      internalID: 261706547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51703b9cce836747849f5c508d67558
+      internalID: 2107457851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 203
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aced463123882e74a95b233346ae1d8b
+      internalID: -988446650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 180
+        width: 24
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e501e511feda0d40a7ff4742c3f50b9
+      internalID: 1209139890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 180
+        width: 24
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e77675848b6ab34c9b5cd5e6eeee120
+      internalID: -1092863020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 180
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8e0051f9469874a8f9209f79c106ce
+      internalID: -843506005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 136
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992213e255b646f4b877b33f083b8672
+      internalID: -488994913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 158
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e883ecb7f1d597f47886ca98b4494629
+      internalID: 852980641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 158
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd69270ac974a9441a99b11f3037e0f9
+      internalID: -1485186227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 158
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0334688e961b14cb6f7ce92a530b1d
+      internalID: -911736346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 114
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e47aca0dd6d38041a7b5334067eebc8
+      internalID: -150900750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 114
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00093b2f2bb84d24f869694b1173f60c
+      internalID: -14870448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 136
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2551021be5315947a6bbce4f5f8e30b
+      internalID: 611367784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 115
+        width: 10
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844016124f7997a478cfee6361494583
+      internalID: 1368140985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 115
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f247e3e7cf792419232d278e65624b
+      internalID: 437817351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_18
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 97
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8da7699fb08894bb0b7c359f49cb3b
+      internalID: 1575309280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae406f563add59443845d079a65b833e
+      internalID: -1118224740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 115
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67418dd15e0709a4cb04ddec37d99732
+      internalID: 134338036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 107
+        width: 11
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c926c8c0cc8362949bdfcd0444d911f5
+      internalID: 1407298177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 107
+        width: 11
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b8880552dd7440826cc31316212cc
+      internalID: -583067015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 97
+        width: 10
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bf8d81de1771a4b9a9060ef6f81cb3
+      internalID: -864348396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 97
+        width: 9
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf0791d41a78d249a14f53a75bbe576
+      internalID: -421952038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 97
+        width: 9
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afea692c5c2c6c47ac6f6a1ab58475c
+      internalID: -610974791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 75
+        width: 9
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d87215efb7319c40b72985be50a5e45
+      internalID: -594418319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 75
+        width: 9
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539ce3207d0ac534a9977afb1c418e23
+      internalID: -1798821275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_28
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 75
+        width: 9
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8724fbe8d6fa1a47a290e02d03dddba
+      internalID: 1270443194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 75
+        width: 9
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f210326520c4d5c4aae23bccbb9f7d80
+      internalID: -2031236960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_30
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 75
+        width: 9
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91377f12b080cba44881698d3420e6cd
+      internalID: 1329134857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 75
+        width: 9
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2eee187654d06943b36023a3eec71c4
+      internalID: 384863555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 53
+        width: 9
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0169ba2e2db8d45bbeec89d08eccd7
+      internalID: 619556111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 53
+        width: 9
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4079a50f01a524e9412ad999df15b2
+      internalID: 1932322595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 53
+        width: 9
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577da182a51ceda47b7221574139b670
+      internalID: -985522644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_35
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 53
+        width: 9
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4f7b370cea41e4e90b29c7d46fe5aa
+      internalID: -225512540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 53
+        width: 14
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22974b66690d2824baafa3328c0fd2c5
+      internalID: 925213155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_37
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 53
+        width: 16
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d94ac491a926cc4ca55089c3c507e5a
+      internalID: -1865322492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 31
+        width: 16
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d3d5f4609ec8941bc5bc21c3951dc5
+      internalID: 2062537841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 27
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0b561291abb7146b8532ae3a1f918b
+      internalID: 1069325165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_40
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 26
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf962bf949cd6c4ebad4ce7beae6ae5
+      internalID: 1065366051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 27
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a08dd460737f64d929245836c6510d
+      internalID: 92748597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 26
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca0775da9950574da28b25f7fc177d5
+      internalID: 1825199865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_43
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 27
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3559f100a2bdf64081b6eb879aaea18
+      internalID: -635573834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_44
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 80
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f36429c95392419e73e3e1e1561fc
+      internalID: 779515523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_45
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 137
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5215ebadc2be8324b8786d0b566a8bb0
+      internalID: 1712008991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 137
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac1e34abf66fb6419b0a65b7b61364b
+      internalID: 1458101224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 203
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc18e0591b667c43a1146760a2dd262
+      internalID: 235442601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_48
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 181
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a19c72c9441ce14886f2daa1d46da75
+      internalID: -49711280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 159
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a420169f089c541bef8061bab839ef
+      internalID: 390922665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 137
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7021d09f2155664aa5d0222ea10c855
+      internalID: 2077371751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 159
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179858cfd4ac2754e8bc9fbb406addac
+      internalID: 260402722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_52
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 181
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b1b4d1a8454234886b4bb4e5bac10f
+      internalID: -196733172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_53
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 203
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a8b1657c1699543bae451ff7a7b8dd
+      internalID: -1844667207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_54
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 159
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a749ba87fb2828a49a2501065fa934b8
+      internalID: -1566773771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_55
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 181
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb409bbc2a2319142aec5703a1b36310
+      internalID: 255611780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_1: -2043048931
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_38: 2062537841
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_40: 1065366051
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_44: 779515523
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_30: 1329134857
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_45: -1785424582
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_10: 852980641
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_18: 1575309280
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_31: 384863555
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_15: 611367784
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_53: -196733172
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_36: 925213155
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_4: 2107457851
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_51: 2077371751
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_21: 1407298177
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_55: -1566773771
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_25: -610974791
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_29: -2031236960
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_20: 134338036
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_13: -150900750
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_19: -1118224740
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_49: -49711280
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_35: -225512540
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_12: -911736346
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_8: -843506005
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_32: 619556111
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_6: 1209139890
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_41: 92748597
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_42: 1825199865
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_2: 964251468
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_22: -583067015
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_43: -635573834
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_48: 235442601
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_23: -864348396
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_54: -1844667207
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_46: 1712008991
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_26: -594418319
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_39: 1069325165
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_16: 1368140985
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_9: -488994913
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_3: 261706547
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_7: -1092863020
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_33: 1932322595
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_34: -985522644
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_37: -1865322492
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_11: -1485186227
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_47: 1458101224
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_50: 390922665
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_52: 260402722
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_5: -988446650
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_24: -421952038
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_14: -14870448
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_28: 1270443194
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_27: -1798821275
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_0: -1970196264
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy_17: 437817351
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

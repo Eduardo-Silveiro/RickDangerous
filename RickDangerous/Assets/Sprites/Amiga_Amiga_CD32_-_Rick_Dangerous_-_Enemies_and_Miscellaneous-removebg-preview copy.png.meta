@@ -1,0 +1,2895 @@
+fileFormatVersion: 2
+guid: ce3f145ecbac31e41abbaaa7f72056ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 354
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac570bb5ed03cba47879ec1591f6e374
+      internalID: 662406902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 354
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6e79bd4516a4547acdec63badf819e
+      internalID: 1074354101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 310
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b1202d2d833104395d9aa3ed3f9a56
+      internalID: 792675842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 354
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190fe94ce8e54704bb72502adb4ce8c3
+      internalID: -1024693471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 354
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb8165e7e6d4e34595d66476127157e
+      internalID: 952015867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 310
+        width: 24
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a690c62fc4150884d8ea1ab086d9b768
+      internalID: -1953874441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 354
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75310395b1a6fad45a45510e800b9b81
+      internalID: 1838286361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 354
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51253345ad7a0454c938639295dc6a53
+      internalID: -333094802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 332
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88178ef4bb8eea24ba2d1ebc6c2a1af4
+      internalID: 1512415914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 332
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5be72b8665ee3488f3f92f1657a750
+      internalID: -1750559532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 332
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac14293cd8d05a4a8e87931937df5ed
+      internalID: -886914048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 331
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d285fe5534b62bc4dbe1fd61d9441bc3
+      internalID: -2058383698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_12
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 331
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e3eac11da403048b3a4815225f205e
+      internalID: -299927726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 332
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16beb594b717d424899231778b188f32
+      internalID: 835400566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 266
+        width: 21
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e239966570bfcb94d8f2120451f6b818
+      internalID: -101688635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 287
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121b0ab9ab77bbf4d8c4755c67d4399f
+      internalID: 1929575192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 310
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b43b1c799eec014da0b8dcb06d62928
+      internalID: -358677640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 310
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9839bf3a980febe43bcb9ee640c75757
+      internalID: -1280846345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 310
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d0025b3affd84fa524b302bf890e7
+      internalID: -1627397625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 310
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1fe72f15df50e4fb92c6d441db59fd
+      internalID: 2023527054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 222
+        width: 20
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd29ab07a935314bb6a2e3947c38053
+      internalID: 1317071644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 266
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359c530369ef3c44caa743a6151b21ef
+      internalID: -1591914148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58af23254555bb4fb82d8d41360b039
+      internalID: -795507501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 222
+        width: 20
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15773a127a1182d44919c49531d6b3f3
+      internalID: 836635709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_24
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 288
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a8fe8eb23c9f94cb19f1aa2b3742e6
+      internalID: 1050569196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e746b5a58bfcd6f4db454ea4be60334e
+      internalID: -2054062124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 288
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94a9d26be9f84e49a47da46d041cd59
+      internalID: -1787431763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_27
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 266
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15db1933b7c97254d86c7c8ecef74dca
+      internalID: 1337698731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 222
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a9ed939e4b826448d5ddf66c0a70a5
+      internalID: -2120553791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 222
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a96a7f66396e384c9603d8942414741
+      internalID: 1628488277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 266
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132b5f0f38e1cce43b82ad9e1da4040f
+      internalID: -1563724160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 266
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b4659870169864088768fed0594fdf
+      internalID: -716939092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 243
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2645042b785c16a4eadf436ee570953d
+      internalID: -643682859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_33
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 222
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be139a7c820a7004bb6a66ad91bdc86d
+      internalID: -275848647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_34
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 222
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e2f16548990b349ade31446ea57cb8
+      internalID: 1504158600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 244
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbce481c315377a42bcc9c6258bcf5e5
+      internalID: -2034329997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 244
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aa9eb83e9b7474a9b327c56c9de92f
+      internalID: 1282681839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_37
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 243
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe5594a59966634cb09f16c8ddcff89
+      internalID: 15647991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 222
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644eda7338a797b46868680711efe000
+      internalID: 1192833394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_39
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 222
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9333e88795fa4184bac7c940c7026b90
+      internalID: 1530941319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 178
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15413f4e28571bd47bc15c77ded9d2ae
+      internalID: 567180217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_41
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 200
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3118324cdadf16843a12f47852269e27
+      internalID: -909599656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 200
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87840b6d0d7455041bd28f73aa87ded4
+      internalID: 854927343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_43
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 200
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d7dc4fbf866e042b7ea3fbe83b6616
+      internalID: -147407415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 200
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6255a31ba7c18d44ba45d5677851f1c2
+      internalID: -499898012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 178
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b523ea935360d248b7b8f1814b6c015
+      internalID: 235342514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_46
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 199
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b29a19bb70b0c745b9878ada36b0e93
+      internalID: 160251821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 199
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac12e0ebea97fb49a5c648a4e08d551
+      internalID: 1732341170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_48
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 178
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51cc807ab220a94a83f8731d329d7c8
+      internalID: 1477630958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_49
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 178
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d2f4c16c4e8384db27e4a1e4948411
+      internalID: 688769523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_50
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 185
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fb89cd0ae22674f86b0c578b2896be
+      internalID: -1073133873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_51
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 185
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441878814c9e5414da270e3e20d1980e
+      internalID: -1152602053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_52
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 178
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cddf1a930e583c4084b08ab371b6063
+      internalID: 308869042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 178
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f8c8874df77924eb046dfb6c3623b4
+      internalID: -1925957762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_54
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 178
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7d36b1149a6164ab9fd962d1d1c359
+      internalID: -671789263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_55
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 147
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee89d383a6b300d40a293db5f4436756
+      internalID: -1882492493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 156
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a78398c9a43bd48acfdda93970306f
+      internalID: -263837814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_57
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 139
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c8203aa5177f14399ceeeff3f2c9b0
+      internalID: -1626481857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_58
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 156
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464fa244c60471b4bb6d198b31566bac
+      internalID: 2063343316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_59
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 157
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94e47d6536dd5448b00e17358f30702
+      internalID: 923301606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_60
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 157
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f14e5b1d65449499081383baea469a
+      internalID: -117209406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_61
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 134
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73262b7f8882fe4997b1dcd0acf6184
+      internalID: -183191520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_62
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 134
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74391dfc6de5fa438970286fefad3f4
+      internalID: -2019252568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_63
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 155
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9900a7c7cfd7446becdba96b3909f7
+      internalID: 1626637736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 155
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2c02d22c82c634c92c48214749bdbd
+      internalID: -618044779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 134
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7089381f47a1dcd418b20f3906ffcf8a
+      internalID: -612342502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_66
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 134
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1f281bc05e97a4fadcaf3eb7e691ed
+      internalID: -643016128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_67
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 139
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fed7262887d13347b367d3b2e7c97e1
+      internalID: -1168672078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_68
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 139
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c797f8def55ca046954572e00acb685
+      internalID: -1591476220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_69
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dddebe8c0fc4f4dbefb659a03ea763
+      internalID: 1553314036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_70
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 134
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8794fd2f140a2047a9509beb22be420
+      internalID: -1248334428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_71
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 95
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7912768336d68834ea06f67f6d9464d5
+      internalID: -426762344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_72
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 117
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4add78a3d4a34ed4d94a84052d66a894
+      internalID: -1797516886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_73
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 111
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72999ad8afba8c3498e09818868d0926
+      internalID: -1888175908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_74
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 126
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6568105cd192ed4995e429a29ca45be
+      internalID: 1416922020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_75
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 117
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a1ce134557ba644b9d4f4b4da0fe5a
+      internalID: 247738166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_76
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c25f748634285f4a8410c4b43f35984
+      internalID: 1291271037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_77
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 112
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec53a311f6f7224c8796ff62a3a7b2c
+      internalID: -1641522113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_78
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adcc3851f49b2149bcbf92b0b4f129a
+      internalID: 1655874524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_79
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 112
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ed10905bf6e6f469304faee90a4e36
+      internalID: -2002392687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_80
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 112
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766279ac5864e274db6b684232e0a795
+      internalID: 99957628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_81
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 95
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9976b26ca482014798189840c1e66a9
+      internalID: -824317746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_82
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 95
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdd10facbfae9e44961b39ac28def6d
+      internalID: -2052150995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_83
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 94
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efebc9b4db8c1784bbe2d370fd6c5ad5
+      internalID: -1947047285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_84
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 95
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad449eab82f612f42b04f9d68401369b
+      internalID: 912107784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_85
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 103
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c54ee2621b4624987d11421ab6311f
+      internalID: 1007202575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_86
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 104
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f2564e8ed49f44c964ee2d60193b59
+      internalID: -1731538185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_87
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 90
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c366a537b8794f343bf5d909eafa615c
+      internalID: 547671654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_88
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 90
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623401eb9f362fc458f5c796bdc15759
+      internalID: 2022448525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_89
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 90
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e4947f4721d0346836518e2227c7a4
+      internalID: 501641850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_90
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 98
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fd9090f8d12034e9a257b06ba72e2b
+      internalID: 632413031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_91
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 92
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbd88ba65896c947bb12196af3c18d1
+      internalID: 1091255550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_92
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a555558c2395da4d823a206ac9ac64b
+      internalID: 815719426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_93
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 76
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4261d11dc4b8e428632248f405dd13
+      internalID: 1444078962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_94
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 80
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b910e86cc1a621469a6b2451f32cfec
+      internalID: -807687653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_95
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 58
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506633c6fe291b74186aa18666bcd2fd
+      internalID: 1225140749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_96
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 58
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deabc3757b7ab1a47bbcc1eb164e1558
+      internalID: -777411140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_97
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 58
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933f9560ad861dc4aa673a92b32ddd99
+      internalID: 1028508798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_98
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 67
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3baf9790d8aff4095797ca3102fd1b
+      internalID: 301855629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 67
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baac5ff09e2e0a428af83673170f4d7
+      internalID: -1563132048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 79
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b990d1cb5ab47b74899e0367449c6b01
+      internalID: 1604515942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_101
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 55
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536162adda9ae8641893e48dff5f4e61
+      internalID: -156968458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_102
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 57
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cb5e92b35ea124fb9c4bf0445af6a1
+      internalID: 1043722419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_103
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 54
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1caa810daee4904f9d31d9859a5c7ad
+      internalID: -1326726171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_104
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 55
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04861f3df117f14b82b806e5294236c
+      internalID: 2041295499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_105
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 54
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f61916d9eba2e4a8fe99a9e5b8db77
+      internalID: -1649075922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_106
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 54
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c23985ade649f4eb4bd1e4c4b9247f
+      internalID: -50421017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_107
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 37
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2032e6e67febb742a1fa660dda450c0
+      internalID: 117662976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_108
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 37
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c816445abb709345a280de34ef7a5f2
+      internalID: -1763978925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_109
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 36
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7545641faee94534780fcbb3e545f4cd
+      internalID: -392850212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_110
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 35
+        width: 50
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a11ef738b9a37a4cb4df784b3249125
+      internalID: 948511474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_111
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 33
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed009b63ee232543a1df1325c18e171
+      internalID: -1405941920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_112
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 31
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cb268d54221804781eba435fc72a1f
+      internalID: 1295338825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_113
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 33
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fefe0f0dbbfe146a7039d2b22a0dd3
+      internalID: -1779925435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_114
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 33
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14179d514daec2d4785f3083afea2ee3
+      internalID: 1053509792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_115
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 37
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204b11207268d7a419dc92350cbfef44
+      internalID: 448782760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_116
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 15
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c04b356295a3d4c99ed3498fd3f0e4
+      internalID: -208339385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_117
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 14
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed24f87ba599c643aba05d87ba30166
+      internalID: 1182083531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_118
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 8
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3228f32eaf6a1848a6810b2525ba23f
+      internalID: -1034420844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview
+        copy_119
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 90
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19386673088e1044eb8469aac64ccde8
+      internalID: 1464816695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_5: -1953874441
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_48: 1477630958
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_43: -147407415
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_52: 308869042
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_16: -358677640
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_9: -1750559532
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_39: 1530941319
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_34: 1504158600
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_100: 1604515942
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_23: 836635709
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_87: 547671654
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_113: -1779925435
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_7: -333094802
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_118: -1034420844
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_46: 160251821
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_19: 2023527054
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_103: -1326726171
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_97: 1028508798
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_22: -795507501
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_38: 1192833394
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_99: -1563132048
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_35: -2034329997
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_84: 912107784
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_1: 1074354101
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_4: 952015867
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_51: -1152602053
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_91: 1091255550
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_37: 15647991
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_81: -824317746
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_85: 1007202575
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_13: 835400566
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_55: -1882492493
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_68: -1591476220
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_79: -2002392687
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_40: 567180217
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_98: 301855629
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_11: -2058383698
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_56: -263837814
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_102: 1043722419
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_3: -1024693471
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_73: -1888175908
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_104: 2041295499
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_62: -2019252568
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_72: -1797516886
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_28: -2120553791
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_10: -886914048
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_111: -1405941920
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_108: -1763978925
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_32: -643682859
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_116: -208339385
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_12: -299927726
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_94: -807687653
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_45: 235342514
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_17: -1280846345
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_77: -1641522113
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_67: -1168672078
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_69: 1553314036
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_29: 1628488277
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_114: 1053509792
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_92: 815719426
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_95: 1225140749
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_65: -612342502
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_86: -1731538185
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_106: -50421017
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_64: -618044779
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_96: -777411140
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_58: 2063343316
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_71: -426762344
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_93: 1444078962
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_14: -101688635
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_33: -275848647
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_36: 1282681839
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_105: -1649075922
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_76: 1291271037
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_117: 1182083531
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_27: 1337698731
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_18: -1627397625
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_75: 247738166
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_41: -909599656
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_44: -499898012
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_61: -183191520
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_20: 1317071644
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_110: 948511474
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_50: -1073133873
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_54: -671789263
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_6: 1838286361
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_78: 1655874524
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_82: -2052150995
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_57: -1626481857
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_15: 1929575192
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_21: -1591914148
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_53: -1925957762
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_31: -716939092
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_49: 688769523
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_101: -156968458
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_59: 923301606
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_26: -1787431763
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_119: 1464816695
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_66: -643016128
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_90: 632413031
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_109: -392850212
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_112: 1295338825
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_2: 792675842
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_74: 1416922020
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_89: 501641850
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_107: 117662976
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_70: -1248334428
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_115: 448782760
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_24: 1050569196
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_8: 1512415914
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_42: 854927343
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_30: -1563724160
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_60: -117209406
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_25: -2054062124
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_63: 1626637736
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_88: 2022448525
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_47: 1732341170
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_83: -1947047285
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_0: 662406902
+      Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_80: 99957628
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,6 +8,7 @@ public class TreasuresSO : ScriptableObject
 {
     //[SerializeField] private AudioSource treasureSound;
     [SerializeField] private int treasureValue;
+    private int valueToIncrease;
 
     public int TreasureValue
     {

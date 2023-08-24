@@ -124,5 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc3f15d82de1d443a4ca556bcf7f161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  treasureText: {fileID: 0}
+  scoreText: {fileID: 0}
   treasures: {fileID: 11400000, guid: 0512d38e7294cc443b879f0e0868c26f, type: 2}
+  playerStats: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}

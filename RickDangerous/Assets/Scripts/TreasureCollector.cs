@@ -7,20 +7,23 @@ using TMPro;
 public class TreasureCollector : MonoBehaviour
 {
 
-    [SerializeField] private TMP_Text treasureText;
+    [SerializeField] private TMP_Text scoreText;
     [SerializeField] private TreasuresSO treasures;
-    private static int value = 0;
+    [SerializeField] private PlayerStatusSO playerStats;     
+    private int value = 0;
 
     private void Start()
     {
-        UpdateTreasureText();
+        playerStats.ResetScore();
+        //UpdateTreasureText();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            value += treasures.TreasureValue;
+
+            playerStats.Score += treasures.TreasureValue; 
             UpdateTreasureText();
             Destroy(gameObject);
         }
@@ -28,7 +31,7 @@ public class TreasureCollector : MonoBehaviour
 
     private void UpdateTreasureText()
     {
-        treasureText.text = value.ToString("D6");
+        scoreText.text = playerStats.Score.ToString("D6");
     }
 
     

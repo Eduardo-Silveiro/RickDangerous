@@ -15,12 +15,15 @@ public class PlayerMovement : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    private Animator animator;
+
 
     void Start()
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -52,34 +55,44 @@ public class PlayerMovement : MonoBehaviour
 
     public void AnimationState()
     {
-        //MovementState state;
 
-        if (dirX > 0f)
+        if (dirX > 0f )
         {
-            //state = MovementState.running;
+            animator.SetBool("IsRunning", true);
             spriteRenderer.flipX = false;
         }
         else if (dirX < 0f)
         {
-            //state = MovementState.running;
+            animator.SetBool("IsRunning", true);
             spriteRenderer.flipX = true;
         }
-        /**
+   
         else
         {
-            //state = MovementState.idle;
+            animator.SetBool("IsRunning", false);
         }
+
+
         if (rb.velocity.y > .1f)
         {
-            state = MovementState.jumping;
+            animator.SetBool("IsJumping",true);
         }
         else if (rb.velocity.y < -.1f)
         {
-            state = MovementState.falling;
+            animator.SetBool("IsJumping", false);
         }
-        animator.SetInteger("State", (int)state);
-        **/
+
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            animator.SetBool("IsCrouching", true);
+
         }
+        else {
+            animator.SetBool("IsCrouching", false);
+
+        }
+
+    }
 
     public bool IsGrounded(){
         return Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0f, Vector2.down, .1f, jumpableGround);

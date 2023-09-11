@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16223 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16297 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\2021.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/eduar/Documents/GitHub/RickDangerous/RickDangerous
+C:/Users/diogo/Desktop/IPS/Portefolio/RickDangerous/RickDangerous
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59051
-Successfully changed project path to: C:/Users/eduar/Documents/GitHub/RickDangerous/RickDangerous
-C:/Users/eduar/Documents/GitHub/RickDangerous/RickDangerous
+55495
+Successfully changed project path to: C:/Users/diogo/Desktop/IPS/Portefolio/RickDangerous/RickDangerous
+C:/Users/diogo/Desktop/IPS/Portefolio/RickDangerous/RickDangerous
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,108 +47,105 @@ C:/Users/eduar/Documents/GitHub/RickDangerous/RickDangerous
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 115.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 107.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
-[Subsystems] Discovering subsystems at path D:/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/eduar/Documents/GitHub/RickDangerous/RickDangerous/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/diogo/Desktop/IPS/Portefolio/RickDangerous/RickDangerous/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
-    VRAM:     5979 MB
-    Driver:   31.0.15.2802
+    VRAM:     5980 MB
+    Driver:   31.0.15.3699
 Initialize mono
-Mono path[0] = 'D:/2021.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'D:/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004019 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013180 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 119.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
+- Completed reload, in  0.890 seconds
 Domain Reload Profiling:
-	ReloadAssembly (804ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (568ms)
-			LoadAssemblies (113ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (342ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012255 seconds.
+Registered in 0.011686 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\eduar\Documents\GitHub\RickDangerous\RickDangerous\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\eduar\Documents\GitHub\RickDangerous\RickDangerous\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diogo\Desktop\IPS\Portefolio\RickDangerous\RickDangerous\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diogo\Desktop\IPS\Portefolio\RickDangerous\RickDangerous\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 115.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
+- Completed reload, in  1.467 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1412ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1469ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (579ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (622ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (55.5 KB). Loaded Objects now: 4549.
+Unloading 38 unused Assets / (55.4 KB). Loaded Objects now: 4548.
 Memory consumption went from 153.7 MB to 153.7 MB.
-Total: 4.787800 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.275400 ms MarkObjects: 4.094000 ms  DeleteObjects: 0.086600 ms)
+Total: 3.967100 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.100300 ms MarkObjects: 3.317700 ms  DeleteObjects: 0.103000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,3 +157,141 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1538381.652400 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.018111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Levels/Level 1.unity
+  artifactKey: Guid(94620d85b6fbca5458b45487c7c660ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level 1.unity using Guid(94620d85b6fbca5458b45487c7c660ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b280784acba68df4a1592876bede912') in 0.011271 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009484 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\diogo\Desktop\IPS\Portefolio\RickDangerous\RickDangerous\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diogo\Desktop\IPS\Portefolio\RickDangerous\RickDangerous\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1383ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4551.
+Memory consumption went from 151.8 MB to 151.8 MB.
+Total: 4.377000 ms (FindLiveObjects: 0.572400 ms CreateObjectMapping: 0.287200 ms MarkObjects: 3.479100 ms  DeleteObjects: 0.037200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.644532 seconds.
+  path: Assets/Scenes/EnemysTest.unity
+  artifactKey: Guid(ca6a5806d12b7704ea57abf62706da89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EnemysTest.unity using Guid(ca6a5806d12b7704ea57abf62706da89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4b2f53006e1a7c2ad36e730620a3b0') in 0.016280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.294723 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(3b7d48a32e029af4bbd82b0ab44ddbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(3b7d48a32e029af4bbd82b0ab44ddbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8486b7fe99ed3432b485ebbce70fc09') in 0.009332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027127 seconds.
+  path: Assets/Prefabs/BombAmmoBox.prefab
+  artifactKey: Guid(7e2d55a0433754142a60d84f6078b439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BombAmmoBox.prefab using Guid(7e2d55a0433754142a60d84f6078b439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e3efc8703f022f0e1c27d0081537b3') in 0.198812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(3f0ff9accbfd41f4988f1ddb7f25088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(3f0ff9accbfd41f4988f1ddb7f25088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a5e344c943d5973e4df43d2ce761e4') in 0.028883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.789356 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(f00786d02de058e42a2b852cbbae249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(f00786d02de058e42a2b852cbbae249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1718764e610ad4f9227e4dcac55acf50') in 0.011140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.014860 seconds.
+  path: Assets/AssetStore
+  artifactKey: Guid(e33336465d49a2542b18f10eef4f403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore using Guid(e33336465d49a2542b18f10eef4f403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688ace1da07535db26707fee1e24527a') in 0.008767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.325138 seconds.
+  path: Assets/Sprites/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy.png
+  artifactKey: Guid(ef8e360cc04488e44be0b566c2301088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Rick_Dangerous-removebg-preview copy.png using Guid(ef8e360cc04488e44be0b566c2301088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df21c2e106e5dca56ca89c646218c41') in 0.441881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1087.471834 seconds.
+  path: Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_1.asset
+  artifactKey: Guid(8873d35ace1491d4a8de611739ef8d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_1.asset using Guid(8873d35ace1491d4a8de611739ef8d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9ce4cf736b58cc87ea49c149b26676') in 0.044785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085850 seconds.
+  path: Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_3.asset
+  artifactKey: Guid(8dd0fced8b30671439a8fdffe710cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_3.asset using Guid(8dd0fced8b30671439a8fdffe710cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966a0287e3eece7867c59759164a7201') in 0.019539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_5.asset
+  artifactKey: Guid(3e6c92eedfe20da4c8b56724cd8f38b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_5.asset using Guid(3e6c92eedfe20da4c8b56724cd8f38b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14de1fb7b72fcef36ffdb3dfb99cea49') in 0.021589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_6.asset
+  artifactKey: Guid(b0c96e4b5f0bcd6409fa3f820f7c2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemys/Amiga_Amiga_CD32_-_Rick_Dangerous_-_Enemies_and_Miscellaneous-removebg-preview copy_6.asset using Guid(b0c96e4b5f0bcd6409fa3f820f7c2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f25c4ab929a6f05d009f9d6aedaf23') in 0.020807 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -68,4 +68,9 @@ public class EnemyPatrol : MonoBehaviour
         localScale.x *= -1;
         transform.localScale = localScale;
     }
+
+    public void SetSpeed()
+    {
+        speed = 0;
+    }
 }

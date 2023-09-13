@@ -61,12 +61,13 @@
     <Compile Include="Assets\Scripts\BombBoxesSO.cs" />
     <Compile Include="Assets\Scripts\BulletBoxesSO.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\BombCollector.cs" />
     <Compile Include="Assets\Scripts\TreasuresSO.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\TreasureCollector.cs" />
-    <Compile Include="Assets\EnemyPatrol.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemyDeath.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FontsAndText\TextMesh Pro\Shaders\TMPro.cginc" />

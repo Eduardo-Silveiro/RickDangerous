@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider2D;
     private Rigidbody2D rb;
     private float dirX;
+    private char dir;
 
     [SerializeField] private LayerMask jumpableGround;
 
@@ -24,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        dir = 'R';
     }
 
     // Update is called once per frame
@@ -56,17 +58,26 @@ public class PlayerMovement : MonoBehaviour
     public void AnimationState()
     {
 
-        if (dirX > 0f )
+        if (dirX > 0f)
         {
+            
+            if(dir != 'R')
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+                dir = 'R';
+            }
             animator.SetBool("IsRunning", true);
-            spriteRenderer.flipX = false;
         }
         else if (dirX < 0f)
         {
+            
+            if(dir != 'L')
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+                dir = 'L';
+            }
             animator.SetBool("IsRunning", true);
-            spriteRenderer.flipX = true;
         }
-   
         else
         {
             animator.SetBool("IsRunning", false);

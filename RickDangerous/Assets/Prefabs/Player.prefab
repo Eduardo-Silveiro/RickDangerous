@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2812495545075816898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4, y: -0.15, z: 0.06770885}
+  m_LocalPosition: {x: 0.33, y: -0.15, z: 0.06770885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75,6 +75,8 @@ GameObject:
   - component: {fileID: 607290525}
   - component: {fileID: 607290524}
   - component: {fileID: 607290528}
+  - component: {fileID: 1129089987}
+  - component: {fileID: 1129089992}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -171,7 +173,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &607290524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -214,3 +216,41 @@ MonoBehaviour:
   jumpableGround:
     serializedVersion: 2
     m_Bits: 8
+--- !u!95 &1129089987
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8555754274103095563}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 52c4af5b388da2d4e834221406e7d5fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1129089992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8555754274103095563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01b8acfa6609014f980592d41e8a3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingPos: {fileID: 3459291867192950157}
+  bombPos: {fileID: 4169494687731755496}
+  bullet: {fileID: 2744817388851965178, guid: aebcc3ae2dcc77d4f894ce85e459aa52, type: 3}
+  bomb: {fileID: 4140674215110855609, guid: efcada227ae3e4c47930868acc4387d2, type: 3}
+  bulletInterval: 1.5
+  bombInterval: 3

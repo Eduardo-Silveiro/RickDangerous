@@ -21,9 +21,10 @@ public class BulletScript : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            EnemyDeath enemy = collision.gameObject.GetComponent<EnemyDeath>();
+            enemy.Death();
             Destroy(this.gameObject);
-
-            //dano ao enimigo
+            
         }
     }
 

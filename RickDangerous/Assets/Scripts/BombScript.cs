@@ -30,7 +30,8 @@ public class BombScript : MonoBehaviour
             if (col.gameObject.CompareTag("Enemy"))
             {
                 Debug.Log("Destruir Enemy");
-                Destroy(col.gameObject);
+                EnemyDeath enemy = col.gameObject.GetComponent<EnemyDeath>();
+                enemy.Death();
             }
 
             if (col.gameObject.CompareTag("Player"))

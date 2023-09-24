@@ -72,7 +72,6 @@ public class PlayerLife : MonoBehaviour
 
     private void RestartLevel()
     {
-        animator.SetTrigger("Respawn");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     private void UpdateHealthText()

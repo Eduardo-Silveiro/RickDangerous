@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerStatusSO : ScriptableObject
 {
     [SerializeField] private float maxHealth;
+    [SerializeField] private float currentHealth;
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     [SerializeField] int score;  
@@ -15,6 +16,11 @@ public class PlayerStatusSO : ScriptableObject
     public float MaxHealth { 
         get { return maxHealth; }
         set { maxHealth = value; }
+    }
+    public float CurrentHealth
+    {
+        get { return currentHealth; }
+        set { currentHealth = value; }
     }
 
     public float Speed

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Treasure
   - Enemy
+  - Trap
   layers:
   - Default
   - TransparentFX

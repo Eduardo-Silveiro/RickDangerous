@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Treasure
   - Enemy
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3396774723
+    locked: 0
+  - name: BackGround
+    uniqueID: 1255310759
     locked: 0

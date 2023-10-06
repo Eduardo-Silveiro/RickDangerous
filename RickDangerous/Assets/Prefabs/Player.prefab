@@ -75,8 +75,9 @@ GameObject:
   - component: {fileID: 607290525}
   - component: {fileID: 607290524}
   - component: {fileID: 607290528}
-  - component: {fileID: 1129089987}
   - component: {fileID: 1129089992}
+  - component: {fileID: 1129089987}
+  - component: {fileID: 1129089993}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -169,7 +170,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fa6cc5558c4b17a41b836b148a99e8bb, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -216,6 +217,24 @@ MonoBehaviour:
   jumpableGround:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &1129089992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8555754274103095563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01b8acfa6609014f980592d41e8a3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingPos: {fileID: 3459291867192950157}
+  bombPos: {fileID: 4169494687731755496}
+  bullet: {fileID: 2744817388851965178, guid: aebcc3ae2dcc77d4f894ce85e459aa52, type: 3}
+  bomb: {fileID: 4140674215110855609, guid: efcada227ae3e4c47930868acc4387d2, type: 3}
+  bulletInterval: 1.5
+  bombInterval: 3
 --- !u!95 &1129089987
 Animator:
   serializedVersion: 4
@@ -236,7 +255,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1129089992
+--- !u!114 &1129089993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -245,12 +264,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8555754274103095563}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b01b8acfa6609014f980592d41e8a3bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 68ca9ebe54a67004db8e7aca42304041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootingPos: {fileID: 3459291867192950157}
-  bombPos: {fileID: 4169494687731755496}
-  bullet: {fileID: 2744817388851965178, guid: aebcc3ae2dcc77d4f894ce85e459aa52, type: 3}
-  bomb: {fileID: 4140674215110855609, guid: efcada227ae3e4c47930868acc4387d2, type: 3}
-  bulletInterval: 1.5
-  bombInterval: 3
+  playerStatus: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}
+  healthText: {fileID: 0}

@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Trap
   - Ladder
+  - Ball
   layers:
   - Default
   - TransparentFX

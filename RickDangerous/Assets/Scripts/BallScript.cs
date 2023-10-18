@@ -7,7 +7,12 @@ public class BallScript : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Transform player;
+    [SerializeField] private Transform invisibleWall;
+    [SerializeField] private float range;
     private Rigidbody2D rb;
+    private readonly float spinSpeed = 360.0f;
+    private float distance;
+    private Vector3 direction;
 
     void Start()
     {
@@ -17,17 +22,37 @@ public class BallScript : MonoBehaviour
 
     void Update()
     {
-        if (player != null)
+        distance = Vector3.Distance(transform.position, invisibleWall.position);
+
+        
+
+        if (distance < range)
         {
-            // Calculate the direction to the player only on the X-axis
-            Vector3 direction = (player.position - transform.position);
-            direction.y = 0; // Set vertical component to zero
+            direction = (invisibleWall.position - transform.position);
+            direction.y = 0;
+            Debug.Log("Primeiro");
+        }
+        else
+        {
+            direction = (player.position - transform.position);
+            direction.y = 0;
+            Debug.Log("Segundo");
+        }
 
-            // Normalize the direction
-            direction.Normalize();
+        direction.Normalize();
 
-            // Move the ball towards the player on the X-axis only
-            rb.velocity = new Vector2(direction.x * speed, rb.velocity.y);
+        rb.velocity = new Vector2(direction.x * speed, rb.velocity.y);
+
+        float spinDirection = Mathf.Sign(direction.x);
+        float spinAngle = Time.time * spinSpeed * -spinDirection;
+        transform.rotation = Quaternion.Euler(0, 0, spinAngle);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("InvisibleWall"))
+        {
+            Destroy(this.gameObject);
         }
     }
 }

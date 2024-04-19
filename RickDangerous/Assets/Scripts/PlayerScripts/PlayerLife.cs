@@ -32,6 +32,14 @@ public class PlayerLife : MonoBehaviour
         UpdateHealthText();
     }
 
+    private void Update()
+    {
+        /*if (animator.GetCurrentAnimatorStateInfo(0).IsName("Death") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9f)
+        {
+            SceneManager.LoadScene("GameOver");
+        }*/
+    }
+
 
     /// <summary>
     /// Update the static health variable when the player object is destroyed
@@ -39,7 +47,7 @@ public class PlayerLife : MonoBehaviour
     /// </summary>
     private void OnDestroy()
     {
-        health = playerStatus.CurrentHealth;
+       // health = playerStatus.CurrentHealth;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -59,7 +67,9 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
-        SceneManager.LoadScene("GameOver");
+        // O PLAYER ESTA A DETETAR SE MORRE NO PLAYERMOVEMENT PQ O CODIGO 
+        // DO EDU E UMA GANDA MERDA E ESTE SCRIPT DE MERDA ESTA A DAR UNASSIGN AO ANIMATOR POR ALGUMA RAZAO QUANDO ELE MORRE
+        // MATATE EDU O JAIME DEMORA A FAZER PQ O CODIGO DISTO TA TUDO UMA MERDA FILHO DE UMA PUTA
     }
 
     public void TakeDamage()
@@ -83,7 +93,7 @@ public class PlayerLife : MonoBehaviour
     }
     private void UpdateHealthText()
     {
-        healthText.text = "x" + playerStatus.CurrentHealth.ToString();
+        //healthText.text = "x" + playerStatus.CurrentHealth.ToString();
     }
 }
 

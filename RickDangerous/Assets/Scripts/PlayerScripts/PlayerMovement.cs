@@ -32,27 +32,39 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
 
-        dirX = Input.GetAxisRaw("Horizontal");
-
-
-        rb.velocity = new Vector2(dirX * playerStatus.Speed, rb.velocity.y);
-
-       
-        if (Input.GetButtonDown("Jump") && IsGrounded() == true)
+        if(playerStatus.CurrentHealth > 0)
         {
+            dirX = Input.GetAxisRaw("Horizontal");
 
 
-            rb.velocity = new Vector2(rb.velocity.x, playerStatus.JumpForce);
-            //jumpSoundEffect.Play();
+            rb.velocity = new Vector2(dirX * playerStatus.Speed, rb.velocity.y);
+
+
+            if (Input.GetButtonDown("Jump") && IsGrounded() == true)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, playerStatus.JumpForce);
+                //jumpSoundEffect.Play();
+            }
+
+            //fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
+
+            AnimationState();
         }
-       
-        //fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
+        else
+        {
+            animator.SetBool("Death", true);
 
-        AnimationState();
+            rb.velocity = Vector2.up * 7f;  // Instantly give a vertical velocity
+            StartCoroutine(AdjustGravity());
+        }
+    }
 
-
-
-
+    IEnumerator AdjustGravity()
+    {
+        yield return new WaitForSeconds(0.3f); // Shorten this if the jump peak is reached too slowly
+        boxCollider2D.enabled = false;
+        rb.gravityScale = 2.5f;
+        rb.velocity = new Vector2(rb.velocity.x, -20f); // Increase the negative velocity to speed up the fall
     }
 
     public void AnimationState()

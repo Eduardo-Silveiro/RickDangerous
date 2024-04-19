@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,7 +24,7 @@ public class BulletScript : MonoBehaviour
         {
             Destroy(this.gameObject);
 
-            //dano ao enimigo
+            collision.gameObject.GetComponent<EnemyDeath>().Death();
         }
     }
 

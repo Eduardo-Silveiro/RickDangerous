@@ -10,8 +10,7 @@ public class PlayerStatusSO : ScriptableObject
     [SerializeField] private float currentHealth;
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
-    [SerializeField] int score;  
-
+    [SerializeField] int score;
 
     public float MaxHealth { 
         get { return maxHealth; }

@@ -53,3 +53,6 @@ TagManager:
   - name: BackGround
     uniqueID: 1255310759
     locked: 0
+  - name: Ladder
+    uniqueID: 1880921209
+    locked: 0

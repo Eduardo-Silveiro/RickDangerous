@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,9 +12,13 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject controlsMenuPanel;
     [SerializeField] private GameObject mainMenuPanel;
     [SerializeField] private GameObject creditsMenuPanel;
+    [SerializeField] private GameObject scoreMenuPanel;
+
+    [SerializeField] private TextMeshProUGUI scoresText;
 
     //private bool creditsMenuActive = false;
 
+    ScoreManager scoreManager = new ScoreManager();
 
     void Start()
     {
@@ -98,4 +103,24 @@ public class MainMenu : MonoBehaviour
         mainMenuPanel.SetActive(true);
         creditsMenuPanel.SetActive(false);
     }
+
+    public void ScoreMenu()
+    {
+        mainMenuPanel.SetActive(false);
+        scoreMenuPanel.SetActive(true);
+
+        AppendText();
+    }
+
+    public void ScoreBack()
+    {
+        scoreMenuPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
+    }
+
+    private void AppendText()
+    {
+        scoresText.text = scoreManager.DisplayScores();
+    }
+
 }

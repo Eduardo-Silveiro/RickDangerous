@@ -2,19 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class PlayerScore
 {
-	public string PlayerName { get; set; }
-	public int Score { get; set; }
+    public string playerName;
+    public int score;
 
-	public PlayerScore(string playerName, int score)
+    public PlayerScore(string playerName, int score)
 	{
-		PlayerName = playerName;
-		Score = score;
+        this.playerName = playerName;
+        this.score = score;
 	}
 
 	public string ToString()
 	{
-		return PlayerName + ", " + Score;
+		return playerName + ", " + score;
 	}
+}
+
+[System.Serializable]
+public class ScoreData
+{
+    public List<PlayerScore> scores = new List<PlayerScore>();
 }

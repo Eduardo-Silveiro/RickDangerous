@@ -59,12 +59,22 @@ public class MainMenu : MonoBehaviour
     /// <summary>
     /// Resumes the game by hiding the pause menu, restoring time scale, enabling Nomed UI, and resuming audio.
     /// </summary>
-    public void Continue()
+    public void NewGame()
     {
         controlsMenuPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("LevelMenu");
     }
+
+    /// <summary>
+    /// Resumes the game by hiding the pause menu, restoring time scale, enabling Nomed UI, and resuming audio.
+    /// </summary>
+    public void Level1()
+    {
+
+        SceneManager.LoadScene("Level 1");
+    }
+
 
     /// <summary>
     /// Displays the options menu by hiding the pause menu.

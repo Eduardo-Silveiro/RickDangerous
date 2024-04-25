@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-
 public class PlayerLife : MonoBehaviour
 {
     private Animator animator;
@@ -14,7 +13,7 @@ public class PlayerLife : MonoBehaviour
     private static bool gameStarted = false;
     private static float health;
 
-    [SerializeField] private  TMP_Text healthText;
+    [SerializeField] private TMP_Text healthText;
 
 
 
@@ -24,20 +23,12 @@ public class PlayerLife : MonoBehaviour
 
         if (!gameStarted)
         {
-            health = playerStatus.MaxHealth; 
+            health = playerStatus.MaxHealth;
             gameStarted = true;
         }
 
         playerStatus.CurrentHealth = health;
         UpdateHealthText();
-    }
-
-    private void Update()
-    {
-        /*if (animator.GetCurrentAnimatorStateInfo(0).IsName("Death") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9f)
-        {
-            SceneManager.LoadScene("GameOver");
-        }*/
     }
 
 
@@ -47,7 +38,7 @@ public class PlayerLife : MonoBehaviour
     /// </summary>
     private void OnDestroy()
     {
-       // health = playerStatus.CurrentHealth;
+        health = playerStatus.CurrentHealth;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -67,9 +58,7 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
-        // O PLAYER ESTA A DETETAR SE MORRE NO PLAYERMOVEMENT PQ O CODIGO 
-        // DO EDU E UMA GANDA MERDA E ESTE SCRIPT DE MERDA ESTA A DAR UNASSIGN AO ANIMATOR POR ALGUMA RAZAO QUANDO ELE MORRE
-        // MATATE EDU O JAIME DEMORA A FAZER PQ O CODIGO DISTO TA TUDO UMA MERDA FILHO DE UMA PUTA
+        SceneManager.LoadScene("GameOver");
     }
 
     public void TakeDamage()
@@ -93,7 +82,7 @@ public class PlayerLife : MonoBehaviour
     }
     private void UpdateHealthText()
     {
-        //healthText.text = "x" + playerStatus.CurrentHealth.ToString();
+        healthText.text = "x" + playerStatus.CurrentHealth.ToString();
     }
 }
 

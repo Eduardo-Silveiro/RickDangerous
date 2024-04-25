@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelComplete.unity
     guid: f968baa1b3c5556488a1e34a05f6dfde
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu.unity
+    guid: 1a50cc098d3516246a381988f7e57bd7
   m_configObjects: {}

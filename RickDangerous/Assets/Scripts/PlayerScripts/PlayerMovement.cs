@@ -32,39 +32,27 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
 
-        if(playerStatus.CurrentHealth > 0)
+        dirX = Input.GetAxisRaw("Horizontal");
+
+
+        rb.velocity = new Vector2(dirX * playerStatus.Speed, rb.velocity.y);
+
+
+        if (Input.GetButtonDown("Jump") && IsGrounded() == true)
         {
-            dirX = Input.GetAxisRaw("Horizontal");
 
 
-            rb.velocity = new Vector2(dirX * playerStatus.Speed, rb.velocity.y);
-
-
-            if (Input.GetButtonDown("Jump") && IsGrounded() == true)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, playerStatus.JumpForce);
-                //jumpSoundEffect.Play();
-            }
-
-            //fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
-
-            AnimationState();
+            rb.velocity = new Vector2(rb.velocity.x, playerStatus.JumpForce);
+            //jumpSoundEffect.Play();
         }
-        else
-        {
-            animator.SetBool("Death", true);
 
-            rb.velocity = Vector2.up * 7f;  // Instantly give a vertical velocity
-            StartCoroutine(AdjustGravity());
-        }
-    }
+        //fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
 
-    IEnumerator AdjustGravity()
-    {
-        yield return new WaitForSeconds(0.3f); // Shorten this if the jump peak is reached too slowly
-        boxCollider2D.enabled = false;
-        rb.gravityScale = 2.5f;
-        rb.velocity = new Vector2(rb.velocity.x, -20f); // Increase the negative velocity to speed up the fall
+        AnimationState();
+
+
+
+
     }
 
     public void AnimationState()
@@ -72,8 +60,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (dirX > 0f)
         {
-            
-            if(dir != 'R')
+
+            if (dir != 'R')
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
                 dir = 'R';
@@ -82,8 +70,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (dirX < 0f)
         {
-            
-            if(dir != 'L')
+
+            if (dir != 'L')
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
                 dir = 'L';
@@ -98,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (rb.velocity.y > .1f)
         {
-            animator.SetBool("IsJumping",true);
+            animator.SetBool("IsJumping", true);
         }
         else if (rb.velocity.y < -.1f)
         {
@@ -110,14 +98,16 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsCrouching", true);
 
         }
-        else {
+        else
+        {
             animator.SetBool("IsCrouching", false);
 
         }
 
     }
 
-    public bool IsGrounded(){
+    public bool IsGrounded()
+    {
         return Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
 

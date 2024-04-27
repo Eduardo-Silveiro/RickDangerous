@@ -5,26 +5,17 @@ using UnityEngine;
 
 public class BulletCollector : MonoBehaviour
 {
-    [SerializeField] private TMP_Text bulletText;
     [SerializeField] private BulletBoxesSO bulletBoxes;
-    private static int value = 0;
-    void Start()
-    {
-        
-    }
+    [SerializeField] private PlayerStatusSO playerData;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            value += bulletBoxes.NumberOfAmmoGiven;
-            UpdateAmmoText();
+            playerData.BulletCount += bulletBoxes.NumberOfAmmoGiven;
+
             Destroy(gameObject);
         }
-    }
-
-    private void UpdateAmmoText()
-    {
-        bulletText.text = "x" +value.ToString();
     }
 
 }

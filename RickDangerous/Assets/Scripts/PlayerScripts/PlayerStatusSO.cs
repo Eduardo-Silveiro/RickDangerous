@@ -11,6 +11,8 @@ public class PlayerStatusSO : ScriptableObject
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     [SerializeField] int score;
+    [SerializeField] private int bombCount;
+    [SerializeField] private int bulletCount;
 
     public float MaxHealth { 
         get { return maxHealth; }
@@ -34,6 +36,18 @@ public class PlayerStatusSO : ScriptableObject
 
     }
 
+    public int BombCount
+    {
+        get { return bombCount; }
+        set { bombCount = value; }
+    }
+
+    public int BulletCount
+    {
+        get { return bulletCount; }
+        set { bulletCount = value; }
+    }
+
     public int Score {
         get { return score; }
         set { score = value; }
@@ -41,6 +55,27 @@ public class PlayerStatusSO : ScriptableObject
     public void ResetScore()
     {
         score = 0;
+    }
+
+    public void ResetHealth()
+    {
+        currentHealth = maxHealth;
+    }
+
+    public void ResetBulletCount()
+    {
+        bulletCount = 5;
+    }
+
+    public void ResetBombCount()
+    {
+        bombCount = 5;
+    }
+
+    public void ResetAmmo()
+    {
+        ResetBulletCount();
+        ResetBombCount();
     }
 
 }

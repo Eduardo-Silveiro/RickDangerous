@@ -16,13 +16,16 @@ public class MainMenu : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI scoresText;
 
+    [SerializeField] private PlayerStatusSO playerData;
+
     //private bool creditsMenuActive = false;
 
     ScoreManager scoreManager = new ScoreManager();
 
     void Start()
     {
-        
+        playerData.ResetAmmo();
+        playerData.ResetHealth();
     }
 
     

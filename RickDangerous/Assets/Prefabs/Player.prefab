@@ -236,6 +236,7 @@ MonoBehaviour:
   bomb: {fileID: 4140674215110855609, guid: efcada227ae3e4c47930868acc4387d2, type: 3}
   bulletInterval: 1.5
   bombInterval: 3
+  playerData: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}
 --- !u!95 &1129089987
 Animator:
   serializedVersion: 5

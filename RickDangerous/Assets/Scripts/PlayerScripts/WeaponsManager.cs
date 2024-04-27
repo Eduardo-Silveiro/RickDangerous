@@ -10,6 +10,7 @@ public class WeaponsManager : MonoBehaviour
     [SerializeField] private GameObject bomb;
     [SerializeField] private float bulletInterval;
     [SerializeField] private float bombInterval;
+    [SerializeField] private PlayerStatusSO playerData;
 
     private float bulletCooldownTimer;
     private float bombCooldownTimer;
@@ -53,11 +54,32 @@ public class WeaponsManager : MonoBehaviour
 
     void SpawnBullet()
     {
-        Instantiate(bullet, shootingPos.position, transform.rotation);
+        if (bullet == null)
+        {
+            Debug.LogError("Bullet prefab is not assigned in the inspector");
+            return;
+        }
+
+        if(playerData.BulletCount > 0)
+        {
+            Instantiate(bullet, shootingPos.position, transform.rotation);
+            playerData.BulletCount--;
+        }
+        
     }
 
     void SpawnBomb()
     {
-        Instantiate(bomb, bombPos.position, Quaternion.identity);
+        if (bomb == null)
+        {
+            Debug.LogError("Bomb prefab is not assigned in the inspector");
+            return;
+        }
+
+        if(playerData.BombCount > 0)
+        {
+            Instantiate(bomb, bombPos.position, Quaternion.identity);
+            playerData.BombCount--;
+        }
     }
 }

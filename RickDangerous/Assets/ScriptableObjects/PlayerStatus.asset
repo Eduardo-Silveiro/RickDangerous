@@ -17,3 +17,5 @@ MonoBehaviour:
   speed: 4
   jumpForce: 8
   score: 0
+  bombCount: 5
+  bulletCount: 5

@@ -27,7 +27,7 @@ public class PlayerLife : MonoBehaviour
             gameStarted = true;
         }
 
-        playerStatus.CurrentHealth = health;
+        //playerStatus.CurrentHealth = health;
         UpdateHealthText();
     }
 

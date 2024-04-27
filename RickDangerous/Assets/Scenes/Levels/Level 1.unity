@@ -31212,6 +31212,7 @@ GameObject:
   - component: {fileID: 539420919}
   - component: {fileID: 539420918}
   - component: {fileID: 539420917}
+  - component: {fileID: 539420921}
   m_Layer: 5
   m_Name: PlayerUICanvas
   m_TagString: Untagged
@@ -31301,6 +31302,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &539420921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539420916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716c44fe0147bf4429347b5122b986d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 472628215}
+  healthText: {fileID: 950291583}
+  bombText: {fileID: 1621526978}
+  bulletText: {fileID: 1502959911}
+  playerData: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}
 --- !u!1001 &542376436
 PrefabInstance:
   m_ObjectHideFlags: 0

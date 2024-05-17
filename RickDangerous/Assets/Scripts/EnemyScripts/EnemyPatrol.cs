@@ -55,6 +55,25 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if(collision.otherCollider.GetType() == typeof(BoxCollider2D))
+        {
+            if (Vector2.Distance(transform.position, pointA.transform.position) < Vector2.Distance(transform.position, pointB.transform.position))
+            {
+                currentPoint = pointB.transform;
+            }
+            else
+            {
+                currentPoint = pointA.transform;
+            }
+
+            FlipEnemy();
+        }
+
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);

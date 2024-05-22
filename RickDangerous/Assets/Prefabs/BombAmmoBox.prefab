@@ -124,5 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02081669512adbf4eb5a533f927a1ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombText: {fileID: 0}
   bombBoxes: {fileID: 11400000, guid: d52d64756b6599949b04111aca37efb2, type: 2}
+  playerData: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}

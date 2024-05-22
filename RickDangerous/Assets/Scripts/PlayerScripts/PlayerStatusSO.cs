@@ -78,4 +78,9 @@ public class PlayerStatusSO : ScriptableObject
         ResetBombCount();
     }
 
+    public void TakeDamage()
+    {
+        currentHealth--;
+    }
+
 }

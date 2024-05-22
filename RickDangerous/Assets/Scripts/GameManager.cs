@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         playerData.ResetAmmo();
+        playerData.ResetScore();
     }
 
     public void AddPlayer(GameObject gameObject)

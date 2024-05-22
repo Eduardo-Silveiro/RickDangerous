@@ -1535,9 +1535,10 @@ MonoBehaviour:
   optionsMenuPanel: {fileID: 933186658}
   controlsMenuPanel: {fileID: 1856964379}
   mainMenuPanel: {fileID: 785963932}
-  creditsMenuPanel: {fileID: 0}
+  creditsMenuPanel: {fileID: 1197723926}
   scoreMenuPanel: {fileID: 581966450}
   scoresText: {fileID: 1511215315}
+  playerData: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}
 --- !u!1 &534526822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,7 +3625,7 @@ RectTransform:
   - {fileID: 1197723927}
   - {fileID: 581966451}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3763,7 +3764,7 @@ RectTransform:
   m_Children:
   - {fileID: 785963933}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5465,7 +5466,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1511215313
 GameObject:
@@ -6639,7 +6640,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1902904457
 AudioSource:
@@ -7488,10 +7489,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1980562737}
-  m_Father: {fileID: 1185939055}
-  m_RootOrder: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}

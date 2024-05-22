@@ -1075,6 +1075,7 @@ MonoBehaviour:
   creditsMenuPanel: {fileID: 0}
   scoreMenuPanel: {fileID: 0}
   scoresText: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}
 --- !u!1 &1456665477
 GameObject:
   m_ObjectHideFlags: 0

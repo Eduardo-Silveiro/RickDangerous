@@ -63,7 +63,7 @@ public class PlayerLife : MonoBehaviour
 
     public void TakeDamage()
     {
-        playerStatus.CurrentHealth--;
+        playerStatus.TakeDamage();
         UpdateHealthText();
 
         if (playerStatus.CurrentHealth <= 0)
@@ -82,7 +82,7 @@ public class PlayerLife : MonoBehaviour
     }
     private void UpdateHealthText()
     {
-        healthText.text = "x" + playerStatus.CurrentHealth.ToString();
+        //healthText.text = "x" + playerStatus.CurrentHealth.ToString();
     }
 }
 

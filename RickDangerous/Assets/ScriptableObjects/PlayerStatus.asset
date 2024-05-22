@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerStatus
   m_EditorClassIdentifier: 
   maxHealth: 5
-  currentHealth: 3
+  currentHealth: 5
   speed: 4
   jumpForce: 8
   score: 0

@@ -19,13 +19,13 @@ public class EnemyDeath : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    /*private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            playerStatus.MaxHealth -= 100;
+            
         }
-    }
+    }*/
 
     public void Death()
     {

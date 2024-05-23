@@ -32,8 +32,8 @@ public class PlayerMovement : MonoBehaviour
         originalColliderOffset = boxCollider2D.offset;
 
         // Define the size and offset for the crouching state
-        crouchingColliderSize = new Vector2(originalColliderSize.x, originalColliderSize.y / 2);
-        crouchingColliderOffset = new Vector2(originalColliderOffset.x, originalColliderOffset.y / 2);
+        crouchingColliderSize = new Vector2(originalColliderSize.x, originalColliderSize.y / (float)1.8);
+        crouchingColliderOffset = new Vector2(originalColliderOffset.x, originalColliderOffset.y / (float)1.8);
     }
 
     private void Update()
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector2(dirX * playerStatus.Speed, rb.velocity.y);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded() == true)
+        if (Input.GetButtonDown("Jump") && IsGrounded() == true && !animator.GetBool("IsCrouching"))
         {
             rb.velocity = new Vector2(rb.velocity.x, playerStatus.JumpForce);
         }
@@ -84,10 +84,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", false);
         }
 
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        // Only allow crouching if the player is not moving or already crouching
+        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)))
         {
-            animator.SetBool("IsCrouching", true);
-            AdjustColliderForCrouch(true);
+            if (dirX == 0f || animator.GetBool("IsCrouching"))
+            {
+                animator.SetBool("IsCrouching", true);
+                AdjustColliderForCrouch(true);
+            }
         }
         else
         {

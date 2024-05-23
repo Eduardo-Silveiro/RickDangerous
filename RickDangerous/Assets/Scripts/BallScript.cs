@@ -30,13 +30,11 @@ public class BallScript : MonoBehaviour
         {
             direction = (invisibleWall.position - transform.position);
             direction.y = 0;
-            Debug.Log("Primeiro");
         }
         else
         {
             direction = (player.position - transform.position);
             direction.y = 0;
-            Debug.Log("Segundo");
         }
 
         direction.Normalize();

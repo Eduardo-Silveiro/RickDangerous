@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -32,8 +31,8 @@ public class PlayerMovement : MonoBehaviour
         originalColliderOffset = boxCollider2D.offset;
 
         // Define the size and offset for the crouching state
-        crouchingColliderSize = new Vector2(originalColliderSize.x, originalColliderSize.y / (float)1.8);
-        crouchingColliderOffset = new Vector2(originalColliderOffset.x, originalColliderOffset.y / (float)1.8);
+        crouchingColliderSize = new Vector2(originalColliderSize.x, originalColliderSize.y / 1.8f);
+        crouchingColliderOffset = new Vector2(originalColliderOffset.x, originalColliderOffset.y / 1.8f);
     }
 
     private void Update()
@@ -42,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector2(dirX * playerStatus.Speed, rb.velocity.y);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded() == true && !animator.GetBool("IsCrouching"))
+        if (Input.GetButtonDown("Jump") && IsGrounded() && !animator.GetBool("IsCrouching"))
         {
             rb.velocity = new Vector2(rb.velocity.x, playerStatus.JumpForce);
         }
@@ -84,38 +83,57 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", false);
         }
 
-        // Only allow crouching if the player is not moving or already crouching
+        // Immediately cancel running if shift is pressed and initiate crouching
         if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)))
         {
-            if (dirX == 0f || animator.GetBool("IsCrouching"))
+            animator.SetBool("IsRunning", false);
+            // Initiate crouching immediately
+            if (!animator.GetBool("IsCrouching"))
             {
-                animator.SetBool("IsCrouching", true);
-                AdjustColliderForCrouch(true);
+                StartCoroutine(StartCrouching());
             }
+            animator.SetBool("IsCrouching", true);
         }
         else
         {
+            if (animator.GetBool("IsCrouching"))
+            {
+                StartCoroutine(StopCrouching());
+            }
             animator.SetBool("IsCrouching", false);
-            AdjustColliderForCrouch(false);
         }
     }
 
-    private void AdjustColliderForCrouch(bool isCrouching)
+    private IEnumerator StartCrouching()
     {
-        if (isCrouching)
+        // Adjust position to ensure the collider stays above ground
+        transform.position = new Vector3(transform.position.x, transform.position.y - (originalColliderSize.y - crouchingColliderSize.y) / 2, transform.position.z);
+        yield return StartCoroutine(LerpColliderSize(originalColliderSize, crouchingColliderSize, originalColliderOffset, crouchingColliderOffset, 0.2f));
+    }
+
+    private IEnumerator StopCrouching()
+    {
+        yield return StartCoroutine(LerpColliderSize(crouchingColliderSize, originalColliderSize, crouchingColliderOffset, originalColliderOffset, 0.2f));
+        transform.position = new Vector3(transform.position.x, transform.position.y + (originalColliderSize.y - crouchingColliderSize.y) / 2, transform.position.z);
+        animator.SetBool("IsCrouching", false);
+    }
+
+    private IEnumerator LerpColliderSize(Vector2 startSize, Vector2 endSize, Vector2 startOffset, Vector2 endOffset, float duration)
+    {
+        float time = 0f;
+        while (time < duration)
         {
-            boxCollider2D.size = crouchingColliderSize;
-            boxCollider2D.offset = crouchingColliderOffset;
+            time += Time.deltaTime;
+            boxCollider2D.size = Vector2.Lerp(startSize, endSize, time / duration);
+            boxCollider2D.offset = Vector2.Lerp(startOffset, endOffset, time / duration);
+            yield return null;
         }
-        else
-        {
-            boxCollider2D.size = originalColliderSize;
-            boxCollider2D.offset = originalColliderOffset;
-        }
+        boxCollider2D.size = endSize;
+        boxCollider2D.offset = endOffset;
     }
 
     public bool IsGrounded()
     {
-        return Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+        return Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0f, Vector2.down, 0.1f, jumpableGround);
     }
 }

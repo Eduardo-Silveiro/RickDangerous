@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: SimpleTreasuresStatus
   m_EditorClassIdentifier: 
   treasureValue: 500
+  treasureClip: {fileID: 8300000, guid: d6f76876b64bfc147bec61ea2276865e, type: 3}

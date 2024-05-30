@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+    [SerializeField] private AudioSource playerSteps;
 
     void Start()
     {
@@ -59,6 +60,10 @@ public class PlayerMovement : MonoBehaviour
                 dir = 'R';
             }
             animator.SetBool("IsRunning", true);
+            if (!playerSteps.isPlaying)
+            {
+                playerSteps.Play();
+            }
         }
         else if (dirX < 0f)
         {
@@ -68,10 +73,18 @@ public class PlayerMovement : MonoBehaviour
                 dir = 'L';
             }
             animator.SetBool("IsRunning", true);
+            if (!playerSteps.isPlaying)
+            {
+                playerSteps.Play();
+            }
         }
         else
         {
             animator.SetBool("IsRunning", false);
+            if (playerSteps.isPlaying)
+            {
+                playerSteps.Stop();
+            }
         }
 
         if (rb.velocity.y > .1f)
@@ -87,6 +100,10 @@ public class PlayerMovement : MonoBehaviour
         if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)))
         {
             animator.SetBool("IsRunning", false);
+            if (playerSteps.isPlaying)
+            {
+                playerSteps.Stop();
+            }
             // Initiate crouching immediately
             if (!animator.GetBool("IsCrouching"))
             {

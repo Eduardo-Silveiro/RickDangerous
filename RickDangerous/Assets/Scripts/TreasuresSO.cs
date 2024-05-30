@@ -9,6 +9,7 @@ public class TreasuresSO : ScriptableObject
     //[SerializeField] private AudioSource treasureSound;
     [SerializeField] private int treasureValue;
     private int valueToIncrease;
+    [SerializeField] private AudioClip treasureClip;
 
     public int TreasureValue
     {
@@ -16,4 +17,8 @@ public class TreasuresSO : ScriptableObject
         set { treasureValue = value; }
     }
 
+    public AudioClip TreasureClip{
+
+        get { return treasureClip; }
+    }
 }

@@ -11,7 +11,7 @@ public class WeaponsManager : MonoBehaviour
     [SerializeField] private float bulletInterval;
     [SerializeField] private float bombInterval;
     [SerializeField] private PlayerStatusSO playerData;
-
+    [SerializeField] private AudioSource explosiveSound;
     private float bulletCooldownTimer;
     private float bombCooldownTimer;
 
@@ -29,6 +29,8 @@ public class WeaponsManager : MonoBehaviour
             {
                 SpawnBullet();
                 bulletCooldownTimer = bulletInterval;
+                explosiveSound.Play();
+
             }
         }
         else

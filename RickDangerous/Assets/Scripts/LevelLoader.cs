@@ -12,7 +12,9 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] private Tile backgroundTile;
     [SerializeField] private Tile wallTile;
     [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private GameObject spikesPrefab;
+    [SerializeField] private GameObject dartsPrefab;
+    [SerializeField] private GameObject finishPrefab;
 
     private void Start()
     {
@@ -44,7 +46,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        
+
 
         for (int y = 0; y < levelData.level.Count; y++)
         {
@@ -57,20 +59,49 @@ public class LevelLoader : MonoBehaviour
                 switch (cell)
                 {
                     case '1':
+                        //Ground Block
                         SetGroundTileBlock(basePosition);
                         break;
                     case '0':
+                        //Nothing
                         break;
                     case 'P':
-                        //fin the object in the scene with the tag "Player" and set the position to the basePosition
+                        //PLayer
                         GameObject player = GameObject.FindGameObjectWithTag("Player");
-                        player.transform.position = basePosition;
-
+                        Vector3 playerPosition = new Vector3(basePosition.x + 1, basePosition.y, basePosition.z);
+                        player.transform.position = playerPosition;
                         break;
                     case 'E':
+                        //Enemy
                         Instantiate(enemyPrefab, basePosition, Quaternion.identity);
                         break;
-                        // Add more cases as needed
+                    case 'S':
+                        //Spikes
+                        Vector3 spikePosition = new Vector3(basePosition.x, basePosition.y - 0.5f, basePosition.z);
+                        Instantiate(spikesPrefab, spikePosition, Quaternion.identity);
+                        break;
+                    case 'D':
+                        //Darts
+
+                        if (x == 0 || row[x-1] == 1)
+                        {
+                            Vector3 dartPosition = new Vector3(basePosition.x + 0.2f, basePosition.y, basePosition.z);
+                            Instantiate(dartsPrefab, dartPosition, Quaternion.identity);
+                            
+                        }
+                        else if (x == row.Length - 1 || row[x+1] == 1)
+                        {
+                            Vector3 dartPosition = new Vector3(basePosition.x + 1.7f, basePosition.y, basePosition.z);
+                            GameObject dart = Instantiate(dartsPrefab, dartPosition, Quaternion.identity);
+                            dart.transform.Rotate(0, 180, 0);
+                        }
+
+                        break;
+                    case 'F':
+                        //Finish
+                        Vector3 finishPosition = new Vector3(basePosition.x + 0.5f, basePosition.y, basePosition.z);
+                        Instantiate(finishPrefab, finishPosition, Quaternion.identity);
+                        break;
                 }
             }
         }
@@ -87,7 +118,7 @@ public class LevelLoader : MonoBehaviour
 
     private void SetBorderGroundTiles(LevelData levelData)
     {
-        int borderThickness = 5; // Number of rows/columns to add as a border
+        int borderThickness = 8; // Number of rows/columns to add as a border
         int width = levelData.level[0].Length * 2;
         int height = levelData.level.Count * 2;
 

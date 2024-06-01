@@ -2784,7 +2784,9 @@ MonoBehaviour:
   backgroundTile: {fileID: 11400000, guid: f35e5bde5e6b876419dcf14cb8070ffa, type: 2}
   wallTile: {fileID: 11400000, guid: f35e5bde5e6b876419dcf14cb8070ffa, type: 2}
   enemyPrefab: {fileID: 621939913875973810, guid: ac76b231d127ac14e9f7463c1306d6dc, type: 3}
-  playerPrefab: {fileID: 2105018771}
+  spikesPrefab: {fileID: 9189640463834222939, guid: e7937f001e7f9614f9a4dd2b198020da, type: 3}
+  dartsPrefab: {fileID: 2250150141637495453, guid: 625cf7c2c963e984daeaa069f3c6d461, type: 3}
+  finishPrefab: {fileID: 5881501509535304020, guid: 9dbefd32bd5d5584fa79ea40cef54a36, type: 3}
 --- !u!1 &422466513
 GameObject:
   m_ObjectHideFlags: 0
@@ -8748,11 +8750,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031368131}
   m_CullTransparentMesh: 1
---- !u!1 &2105018771 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8555754274103095563, guid: 3f0ff9accbfd41f4988f1ddb7f25088d, type: 3}
-  m_PrefabInstance: {fileID: 8555754274569811346}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2107442193
 GameObject:
   m_ObjectHideFlags: 0

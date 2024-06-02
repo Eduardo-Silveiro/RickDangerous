@@ -13,7 +13,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject mainMenuPanel;
     [SerializeField] private GameObject creditsMenuPanel;
     [SerializeField] private GameObject scoreMenuPanel;
-
+    [SerializeField] private GameObject helpMenuPanel;
+    
     [SerializeField] private TextMeshProUGUI scoresText;
 
     [SerializeField] private PlayerStatusSO playerData;
@@ -77,8 +78,23 @@ public class MainMenu : MonoBehaviour
 
         SceneManager.LoadScene("Level 1");
     }
+    /// <summary>
+    /// Resumes the game by hiding the pause menu, restoring time scale, enabling Nomed UI, and resuming audio.
+    /// </summary>
+    public void Level2()
+    {
 
+        SceneManager.LoadScene("Level 2");
+    }
 
+    /// <summary>
+    /// Resumes the game by hiding the pause menu, restoring time scale, enabling Nomed UI, and resuming audio.
+    /// </summary>
+    public void LevelGenerated()
+    {
+
+        SceneManager.LoadScene("GeneratedLevel");
+    }
     /// <summary>
     /// Displays the options menu by hiding the pause menu.
     /// </summary>
@@ -88,6 +104,23 @@ public class MainMenu : MonoBehaviour
         optionsMenuPanel.SetActive(true);
     }
 
+    /// <summary>
+    /// Displays the options menu by hiding the pause menu.
+    /// </summary>
+    public void HelpMenu()
+    {
+        mainMenuPanel.SetActive(false);
+        helpMenuPanel.SetActive(true);
+    }
+
+    /// <summary>
+    /// Displays the options menu by hiding the pause menu.
+    /// </summary>
+    public void HelpMenuBack()
+    {
+        mainMenuPanel.SetActive(true);
+        helpMenuPanel.SetActive(false);
+    }
     /// <summary>
     /// Returns from the options menu to the pause menu by hiding the options menu.
     /// </summary>

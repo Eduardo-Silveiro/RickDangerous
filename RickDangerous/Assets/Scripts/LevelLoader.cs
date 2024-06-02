@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -12,19 +13,47 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] private Tile backgroundTile;
     [SerializeField] private Tile wallTile;
     [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private GameObject spikesPrefab;
+    [SerializeField] private GameObject dartsPrefab;
+    [SerializeField] private GameObject finishPrefab;
+    [SerializeField] private GameObject bulletAmmoBoxPrefab;
+    [SerializeField] private GameObject bombAmmoBoxPrefab;
+    [SerializeField] private GameObject simpleTreasurePrefab;
+    [SerializeField] private GameObject expensiveTreasurePrefab;
 
     private void Start()
     {
         LoadLevel();
     }
 
-    private void LoadLevel()
+    /*private void LoadLevel()
     {
         if (jsonFile != null)
         {
             LevelData levelData = JsonUtility.FromJson<LevelData>(jsonFile.text);
             GenerateLevel(levelData);
+        }
+    }*/
+
+    private void LoadLevel()
+    {
+        string levelFolderPath = Path.Combine(Application.dataPath, "Level Files");
+
+        // Find the specific file
+        //string[] files = Directory.GetFiles(levelFolderPath, $"{levelFileName}.json", SearchOption.AllDirectories);
+        string[] files = Directory.GetFiles(levelFolderPath, "levelA.json", SearchOption.AllDirectories);
+
+        if (files.Length > 0)
+        {
+            string filePath = files[0];
+            string jsonContent = File.ReadAllText(filePath);
+            LevelData levelData = JsonUtility.FromJson<LevelData>(jsonContent);
+            GenerateLevel(levelData);
+        }
+        else
+        {
+            //Debug.LogError($"Level file {}.json not found in {levelFolderPath}");
+            Debug.LogError($"Level file levelA.json not found in {levelFolderPath}");
         }
     }
 
@@ -44,7 +73,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        
+
 
         for (int y = 0; y < levelData.level.Count; y++)
         {
@@ -57,20 +86,80 @@ public class LevelLoader : MonoBehaviour
                 switch (cell)
                 {
                     case '1':
+                        //Ground Block
                         SetGroundTileBlock(basePosition);
                         break;
                     case '0':
+                        //Nothing
                         break;
                     case 'P':
-                        //fin the object in the scene with the tag "Player" and set the position to the basePosition
+                        //PLayer
                         GameObject player = GameObject.FindGameObjectWithTag("Player");
-                        player.transform.position = basePosition;
-
+                        Vector3 playerPosition = new Vector3(basePosition.x + 1, basePosition.y, basePosition.z);
+                        player.transform.position = playerPosition;
                         break;
                     case 'E':
+                        //Enemy
                         Instantiate(enemyPrefab, basePosition, Quaternion.identity);
                         break;
-                        // Add more cases as needed
+                    case 'S':
+                        //Spikes
+                        Vector3 spikePosition = new Vector3(basePosition.x + 0.55f, basePosition.y, basePosition.z);
+                        Instantiate(spikesPrefab, spikePosition, Quaternion.identity);
+                        break;
+                    case 'D':
+                        //Darts
+
+                        if (x == 0 || row[x - 1] == 1)
+                        {
+                            Vector3 dartPosition = new Vector3(basePosition.x + 0.2f, basePosition.y, basePosition.z);
+                            Instantiate(dartsPrefab, dartPosition, Quaternion.identity);
+
+                        }
+                        else if (x == row.Length - 1 || row[x + 1] == 1)
+                        {
+                            Vector3 dartPosition = new Vector3(basePosition.x + 1.7f, basePosition.y, basePosition.z);
+                            GameObject dart = Instantiate(dartsPrefab, dartPosition, Quaternion.identity);
+                            dart.transform.Rotate(0, 180, 0);
+                        }
+                        break;
+                    case 'F':
+                        //Finish
+
+                        if (x == row.Length - 1 || row[x + 1] == 1)
+                        {
+
+                            Vector3 finishPosition = new Vector3(basePosition.x + 1.5f, basePosition.y, basePosition.z);
+                            Instantiate(finishPrefab, finishPosition, Quaternion.identity);
+
+                        }
+                        else if (x == 0 || row[x - 1] == 1 || (row[x - 1] != 1 && row[x + 1] != 1))
+                        {
+                            Vector3 finishPosition = new Vector3(basePosition.x + 0.5f, basePosition.y, basePosition.z);
+                            Instantiate(finishPrefab, finishPosition, Quaternion.identity);
+                        }
+
+                        break;
+                    case 'A':
+                        //Bullet Ammo Box
+                        Vector3 bulletAmmoBoxPosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(bulletAmmoBoxPrefab, bulletAmmoBoxPosition, Quaternion.identity);
+                        break;
+                    case 'B':
+                        //Bomb Ammo Box
+                        Vector3 bombAmmoBoxPosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(bombAmmoBoxPrefab, bombAmmoBoxPosition, Quaternion.identity);
+                        break;
+                    case 'T':
+                        //Simple Treasure
+                        Vector3 simpleTreasurePosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(simpleTreasurePrefab, simpleTreasurePosition, Quaternion.identity);
+                        break;
+                    case 'U':
+                        //Expensive Treasure
+                        Vector3 expensiveTreasurePosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(expensiveTreasurePrefab, expensiveTreasurePosition, Quaternion.identity);
+                        break;
                 }
             }
         }
@@ -87,7 +176,7 @@ public class LevelLoader : MonoBehaviour
 
     private void SetBorderGroundTiles(LevelData levelData)
     {
-        int borderThickness = 5; // Number of rows/columns to add as a border
+        int borderThickness = 8; // Number of rows/columns to add as a border
         int width = levelData.level[0].Length * 2;
         int height = levelData.level.Count * 2;
 

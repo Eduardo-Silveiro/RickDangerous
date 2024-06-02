@@ -33,13 +33,15 @@ public class EnemyPatrol : MonoBehaviour
     {
         Vector2 point = currentPoint.position - transform.position;
 
+        float verticalVelocity = rigidbody2d.velocity.y;
+
         if (currentPoint == pointB.transform)
         {
-            rigidbody2d.velocity = new Vector2(speed, 0);
+            rigidbody2d.velocity = new Vector2(speed, verticalVelocity);
         }
         else
         {
-            rigidbody2d.velocity = new Vector2(-speed, 0);
+            rigidbody2d.velocity = new Vector2(-speed, verticalVelocity);
         }
 
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)

@@ -50,8 +50,9 @@ public class BombScript : MonoBehaviour
             // Check if the object has the specified tag
             if (col.gameObject.CompareTag("Enemy"))
             {
-                Debug.Log("Destruir Enemy");
-                Destroy(col.gameObject);
+                /*Debug.Log("Destruir Enemy");
+                Destroy(col.gameObject);*/
+                col.gameObject.GetComponent<EnemyDeath>().Death();
             }
 
             if (col.gameObject.CompareTag("Player"))

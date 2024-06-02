@@ -26,15 +26,6 @@ public class LevelLoader : MonoBehaviour
         LoadLevel();
     }
 
-    /*private void LoadLevel()
-    {
-        if (jsonFile != null)
-        {
-            LevelData levelData = JsonUtility.FromJson<LevelData>(jsonFile.text);
-            GenerateLevel(levelData);
-        }
-    }*/
-
     private void LoadLevel()
     {
         string levelFolderPath = Path.Combine(Application.dataPath, "Level Files");

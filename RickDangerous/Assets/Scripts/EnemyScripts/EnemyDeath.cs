@@ -33,6 +33,7 @@ public class EnemyDeath : MonoBehaviour
         float deathAnimationLength = animator.GetCurrentAnimatorStateInfo(0).length;
         enemyPatrol.SetSpeed();
         Invoke(nameof(DestroyEnemy), deathAnimationLength);
+        Debug.Log("Enemy died " + deathAnimationLength);
     }
 
     private void DestroyEnemy()

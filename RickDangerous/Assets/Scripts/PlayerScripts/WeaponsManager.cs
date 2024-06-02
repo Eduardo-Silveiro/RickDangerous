@@ -12,6 +12,8 @@ public class WeaponsManager : MonoBehaviour
     [SerializeField] private float bombInterval;
     [SerializeField] private PlayerStatusSO playerData;
     [SerializeField] private AudioSource explosiveSound;
+    [SerializeField] private AudioSource explosiveSoundSource; // Apenas AudioSource
+
     private float bulletCooldownTimer;
     private float bombCooldownTimer;
 
@@ -19,6 +21,10 @@ public class WeaponsManager : MonoBehaviour
     {
         bulletCooldownTimer = 0f;
         bombCooldownTimer = 0f;
+        if (explosiveSoundSource == null)
+        {
+            Debug.LogError("Explosive sound source is not assigned in the inspector");
+        }
     }
 
     void Update()
@@ -82,6 +88,20 @@ public class WeaponsManager : MonoBehaviour
         {
             Instantiate(bomb, bombPos.position, Quaternion.identity);
             playerData.BombCount--;
+            StartCoroutine(PlayExplosionSoundAfterDelay());
         }
+    }
+
+    private IEnumerator PlayExplosionSoundAfterDelay()
+    {
+        float explosionAnimationDuration = 3.5f; 
+        float delay = explosionAnimationDuration; 
+        if (delay > 0)
+        {
+            yield return new WaitForSeconds(delay);
+        }
+        explosiveSoundSource.Play();
+        yield return new WaitForSeconds(1.2f); 
+        explosiveSoundSource.Stop();
     }
 }

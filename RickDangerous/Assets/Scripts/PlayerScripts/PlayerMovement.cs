@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     [SerializeField] private AudioSource playerSteps;
+    [SerializeField] private AudioSource playerJump;
 
     void Start()
     {
@@ -90,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
         if (rb.velocity.y > .1f)
         {
             animator.SetBool("IsJumping", true);
+            playerJump.Play();
         }
         else if (rb.velocity.y < -.1f)
         {

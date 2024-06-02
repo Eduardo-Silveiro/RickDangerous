@@ -23,7 +23,7 @@ public class BombScript : MonoBehaviour
     private void Update()
     {
 
-        if (hitPlayer && animator.GetCurrentAnimatorStateInfo(0).IsName("Explosion") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.3f )
+        if (hitPlayer && animator.GetCurrentAnimatorStateInfo(0).IsName("Explosion") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.3f)
         {
             hitPlayer = false;
             player.TakeDamage();
@@ -41,6 +41,11 @@ public class BombScript : MonoBehaviour
 
         animator.SetTrigger("Explosion");
 
+        Invoke(nameof(CheckForColliders), 1.0f);
+    }
+
+    private void CheckForColliders()
+    {
         Vector2 center = boxCollider.bounds.center;
         Vector2 size = boxCollider.size;
         Collider2D[] colliders = Physics2D.OverlapBoxAll(center, size, 0f);

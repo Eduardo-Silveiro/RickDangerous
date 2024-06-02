@@ -68,6 +68,7 @@ public class PlayerLife : MonoBehaviour
 
         if (playerStatus.CurrentHealth <= 0)
         {
+            Debug.Log("Player died " + playerStatus.Score);
             Die();
         }
         else

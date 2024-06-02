@@ -35,7 +35,6 @@ public class WeaponsManager : MonoBehaviour
             {
                 SpawnBullet();
                 bulletCooldownTimer = bulletInterval;
-                explosiveSound.Play();
 
             }
         }
@@ -72,8 +71,10 @@ public class WeaponsManager : MonoBehaviour
         {
             Instantiate(bullet, shootingPos.position, transform.rotation);
             playerData.BulletCount--;
+            explosiveSound.Play();
+
         }
-        
+
     }
 
     void SpawnBomb()

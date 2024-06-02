@@ -30254,9 +30254,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Quit
-
-'
+  m_text: Main Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9fbdf52a4a793e149a091326f44cd53a, type: 2}
   m_sharedMaterial: {fileID: -3715067708297992167, guid: 9fbdf52a4a793e149a091326f44cd53a, type: 2}
@@ -32251,7 +32249,7 @@ GameObject:
   - component: {fileID: 631364179}
   - component: {fileID: 631364178}
   m_Layer: 5
-  m_Name: 'Quit Btn '
+  m_Name: 'Main Menu Btn '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32324,7 +32322,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1734304882}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: MainMenuComeBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -55843,11 +55841,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5881501509535304024, guid: 9dbefd32bd5d5584fa79ea40cef54a36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 127.94
+      value: 128.52
       objectReference: {fileID: 0}
     - target: {fileID: 5881501509535304024, guid: 9dbefd32bd5d5584fa79ea40cef54a36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 9.02
       objectReference: {fileID: 0}
     - target: {fileID: 5881501509535304024, guid: 9dbefd32bd5d5584fa79ea40cef54a36, type: 3}
       propertyPath: m_LocalPosition.z

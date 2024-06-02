@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -25,12 +26,34 @@ public class LevelLoader : MonoBehaviour
         LoadLevel();
     }
 
-    private void LoadLevel()
+    /*private void LoadLevel()
     {
         if (jsonFile != null)
         {
             LevelData levelData = JsonUtility.FromJson<LevelData>(jsonFile.text);
             GenerateLevel(levelData);
+        }
+    }*/
+
+    private void LoadLevel()
+    {
+        string levelFolderPath = Path.Combine(Application.dataPath, "Level Files");
+
+        // Find the specific file
+        //string[] files = Directory.GetFiles(levelFolderPath, $"{levelFileName}.json", SearchOption.AllDirectories);
+        string[] files = Directory.GetFiles(levelFolderPath, "levelA.json", SearchOption.AllDirectories);
+
+        if (files.Length > 0)
+        {
+            string filePath = files[0];
+            string jsonContent = File.ReadAllText(filePath);
+            LevelData levelData = JsonUtility.FromJson<LevelData>(jsonContent);
+            GenerateLevel(levelData);
+        }
+        else
+        {
+            //Debug.LogError($"Level file {}.json not found in {levelFolderPath}");
+            Debug.LogError($"Level file levelA.json not found in {levelFolderPath}");
         }
     }
 

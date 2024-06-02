@@ -15,6 +15,7 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
+        paused = false;
     }
 
 

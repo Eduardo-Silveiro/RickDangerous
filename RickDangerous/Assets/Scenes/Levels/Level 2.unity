@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 67743735}
   - component: {fileID: 67743734}
   - component: {fileID: 67743733}
+  - component: {fileID: 67743737}
   m_Layer: 5
   m_Name: PlayerUICanvas
   m_TagString: Untagged
@@ -366,6 +367,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &67743737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67743732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716c44fe0147bf4429347b5122b986d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1901188382}
+  healthText: {fileID: 89820250}
+  bombText: {fileID: 1860404104}
+  bulletText: {fileID: 692730604}
+  playerData: {fileID: 11400000, guid: 69c62d40823b35444872113424598f02, type: 2}
 --- !u!1 &76707634
 GameObject:
   m_ObjectHideFlags: 0
@@ -31534,7 +31552,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 419797412}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
@@ -89050,9 +89068,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 419797412}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: MainMenuComeBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

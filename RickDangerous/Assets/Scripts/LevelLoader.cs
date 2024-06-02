@@ -15,6 +15,10 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] private GameObject spikesPrefab;
     [SerializeField] private GameObject dartsPrefab;
     [SerializeField] private GameObject finishPrefab;
+    [SerializeField] private GameObject bulletAmmoBoxPrefab;
+    [SerializeField] private GameObject bombAmmoBoxPrefab;
+    [SerializeField] private GameObject simpleTreasurePrefab;
+    [SerializeField] private GameObject expensiveTreasurePrefab;
 
     private void Start()
     {
@@ -77,30 +81,61 @@ public class LevelLoader : MonoBehaviour
                         break;
                     case 'S':
                         //Spikes
-                        Vector3 spikePosition = new Vector3(basePosition.x, basePosition.y - 0.5f, basePosition.z);
+                        Vector3 spikePosition = new Vector3(basePosition.x + 0.55f, basePosition.y, basePosition.z);
                         Instantiate(spikesPrefab, spikePosition, Quaternion.identity);
                         break;
                     case 'D':
                         //Darts
 
-                        if (x == 0 || row[x-1] == 1)
+                        if (x == 0 || row[x - 1] == 1)
                         {
                             Vector3 dartPosition = new Vector3(basePosition.x + 0.2f, basePosition.y, basePosition.z);
                             Instantiate(dartsPrefab, dartPosition, Quaternion.identity);
-                            
+
                         }
-                        else if (x == row.Length - 1 || row[x+1] == 1)
+                        else if (x == row.Length - 1 || row[x + 1] == 1)
                         {
                             Vector3 dartPosition = new Vector3(basePosition.x + 1.7f, basePosition.y, basePosition.z);
                             GameObject dart = Instantiate(dartsPrefab, dartPosition, Quaternion.identity);
                             dart.transform.Rotate(0, 180, 0);
                         }
-
                         break;
                     case 'F':
                         //Finish
-                        Vector3 finishPosition = new Vector3(basePosition.x + 0.5f, basePosition.y, basePosition.z);
-                        Instantiate(finishPrefab, finishPosition, Quaternion.identity);
+
+                        if (x == row.Length - 1 || row[x + 1] == 1)
+                        {
+
+                            Vector3 finishPosition = new Vector3(basePosition.x + 1.5f, basePosition.y, basePosition.z);
+                            Instantiate(finishPrefab, finishPosition, Quaternion.identity);
+
+                        }
+                        else if (x == 0 || row[x - 1] == 1 || (row[x - 1] != 1 && row[x + 1] != 1))
+                        {
+                            Vector3 finishPosition = new Vector3(basePosition.x + 0.5f, basePosition.y, basePosition.z);
+                            Instantiate(finishPrefab, finishPosition, Quaternion.identity);
+                        }
+
+                        break;
+                    case 'A':
+                        //Bullet Ammo Box
+                        Vector3 bulletAmmoBoxPosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(bulletAmmoBoxPrefab, bulletAmmoBoxPosition, Quaternion.identity);
+                        break;
+                    case 'B':
+                        //Bomb Ammo Box
+                        Vector3 bombAmmoBoxPosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(bombAmmoBoxPrefab, bombAmmoBoxPosition, Quaternion.identity);
+                        break;
+                    case 'T':
+                        //Simple Treasure
+                        Vector3 simpleTreasurePosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(simpleTreasurePrefab, simpleTreasurePosition, Quaternion.identity);
+                        break;
+                    case 'U':
+                        //Expensive Treasure
+                        Vector3 expensiveTreasurePosition = new Vector3(basePosition.x, basePosition.y - 0.35f, basePosition.z);
+                        Instantiate(expensiveTreasurePrefab, expensiveTreasurePosition, Quaternion.identity);
                         break;
                 }
             }

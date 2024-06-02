@@ -2787,6 +2787,10 @@ MonoBehaviour:
   spikesPrefab: {fileID: 9189640463834222939, guid: e7937f001e7f9614f9a4dd2b198020da, type: 3}
   dartsPrefab: {fileID: 2250150141637495453, guid: 625cf7c2c963e984daeaa069f3c6d461, type: 3}
   finishPrefab: {fileID: 5881501509535304020, guid: 9dbefd32bd5d5584fa79ea40cef54a36, type: 3}
+  bulletAmmoBoxPrefab: {fileID: 3882834929973885590, guid: 511296a3fbb79664aa64435adb90bf97, type: 3}
+  bombAmmoBoxPrefab: {fileID: 1135202048704396796, guid: 7e2d55a0433754142a60d84f6078b439, type: 3}
+  simpleTreasurePrefab: {fileID: 6845830592154406528, guid: a410fc71dc01be14cab1f50d20948ad7, type: 3}
+  expensiveTreasurePrefab: {fileID: 1669225320570297492, guid: ebf2976b5e650a045aded14543d1c1da, type: 3}
 --- !u!1 &422466513
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,7 +3150,7 @@ GameObject:
   - component: {fileID: 472628215}
   m_Layer: 5
   m_Name: ScoreText
-  m_TagString: Untagged
+  m_TagString: ScoreText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

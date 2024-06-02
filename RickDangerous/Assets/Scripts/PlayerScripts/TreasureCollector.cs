@@ -14,6 +14,12 @@ public class TreasureCollector : MonoBehaviour
 
     private void Start()
     {
+        //check if scoreText is assigned in the inspector, if not search for it in the scene with the tag "ScoreText" 
+        if (scoreText == null)
+        {
+            scoreText = GameObject.FindGameObjectWithTag("ScoreText").GetComponent<TMP_Text>();
+        }
+
         playerStats.ResetScore();
         //UpdateTreasureText();
     }

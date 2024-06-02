@@ -559,8 +559,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1356711538}
-        m_TargetAssemblyTypeName: GameOverScript, Assembly-CSharp
+      - m_Target: {fileID: 1753372391}
+        m_TargetAssemblyTypeName: LevelCompletedScript, Assembly-CSharp
         m_MethodName: AddPlayer
         m_Mode: 2
         m_Arguments:
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753372385}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3e1615ca6aa68e40a52d1a6ba646d58, type: 3}
   m_Name: 

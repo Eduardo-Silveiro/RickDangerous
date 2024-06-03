@@ -52,6 +52,7 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Stalactite") || collision.gameObject.CompareTag("Enemy"))
         {
+            Debug.Log("Player hit by " + collision.gameObject.tag);
             TakeDamage();
         }
     }

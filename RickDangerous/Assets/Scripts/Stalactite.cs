@@ -27,7 +27,7 @@ public class Stalactite : MonoBehaviour
             boxCollider2D.enabled = false;
             hasFallen = true;
             //disable the child object of the stalactite to avoid collision with the player after the stalactite has fallen on the player 
-            transform.GetChild(1).gameObject.SetActive(false);
+            //transform.GetChild(1).gameObject.SetActive(false);
         }
     }
 }

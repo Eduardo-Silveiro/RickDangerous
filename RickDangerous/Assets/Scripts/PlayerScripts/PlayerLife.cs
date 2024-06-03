@@ -43,14 +43,14 @@ public class PlayerLife : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Stalactite") || collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage();
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Stalactite") || collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage();
         }

@@ -55299,6 +55299,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 780688404}
     m_Modifications:
+    - target: {fileID: 4810621828939466528, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4810621828939466529, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
       propertyPath: playerTransform
       value: 
@@ -55351,12 +55355,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810621828939466531, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
+      propertyPath: m_Size.x
+      value: 3.0772743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810621828939466531, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
+      propertyPath: m_Size.y
+      value: 5.8181562
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810621828939466531, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.012794495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810621828939466531, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.5019116
+      objectReference: {fileID: 0}
     - target: {fileID: 4810621828939466532, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
       propertyPath: m_Name
       value: Stalactite
       objectReference: {fileID: 0}
     - target: {fileID: 4810621828939466533, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
       propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810621828939466542, guid: 9e800d9da02b1d64b9908b831c02f281, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
